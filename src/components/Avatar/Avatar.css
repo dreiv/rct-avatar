@@ -1,0 +1,17 @@
+.avatar {
+	display: block;
+	overflow: hidden;
+
+	width: 100px;
+	height: 100px;
+
+	border: 10px solid transparent;
+	border-radius: 100%;
+	background: url(circle.svg);
+	background-origin: border-box;
+}
+
+.avatar img {
+	width: 100%;
+	height: auto;
+}
