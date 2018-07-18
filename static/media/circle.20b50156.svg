@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+	<linearGradient id="wow" gradientTransform="rotate(120)">
+		<stop stop-color="#00ABF7"></stop>
+		<stop stop-color="purple" offset="1"></stop>
+	</linearGradient>
+	<circle cx="50" cy="50" r="48" style="stroke: url(#wow)" stroke-width="4" fill="none" />
+</svg>
