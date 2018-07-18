@@ -1,16 +1,15 @@
 import React from 'react'
-import circle from './circle.svg'
 import './Avatar.css'
 
-export default function Avatar(props) {
+export default function Avatar() {
 	return (
-		<figure className="avatar">
+		<figcaption className="avatar">
 			<img
-				src="https://picsum.photos/g/200/200"
+				src="https://picsum.photos/g/100/100"
 				alt="Avatar"
-				width="200"
-				height="200"
+				width="100"
+				height="100"
 			/>
-		</figure>
+		</figcaption>
 	)
 }

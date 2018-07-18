@@ -1,17 +1,23 @@
 .avatar {
-	display: block;
+	position: relative;
+
 	overflow: hidden;
 
-	width: 100px;
-	height: 100px;
+	padding-top: 100%;
 
-	border: 10px solid transparent;
-	border-radius: 100%;
 	background: url(circle.svg);
-	background-origin: border-box;
+	background-repeat: no-repeat;
 }
 
-.avatar img {
+img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+	box-sizing: border-box;
 	width: 100%;
 	height: auto;
+	padding: 10%;
+
+	border-radius: 100%;
 }
